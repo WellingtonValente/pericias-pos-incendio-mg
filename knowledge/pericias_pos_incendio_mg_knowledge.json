@@ -1,0 +1,122 @@
+{
+  "version": "1.0",
+  "jurisdiction_priority": ["CBMMG/MG", "ABNT", "Federal", "Outros estados/país"],
+  "policy": {
+    "offer_downloads": false,
+    "show_links": false,
+    "citation_style": "full_name_year_type"
+  },
+  "sources": {
+    "Ignis-CBMSC-2020": {
+      "title": "Ignis (v5 n1, 2020) – Artigos técnicos do CBMSC",
+      "type": "Periódico técnico",
+      "year": 2020,
+      "jurisdiction": "SC",
+      "note": "Referência complementar (fora de MG)."
+    },
+    "TCC-ABM-CBMMG-2024": {
+      "title": "Estudo pericial com sensoriamento remoto em incêndios florestais – ABM/CBMMG",
+      "type": "Trabalho de Conclusão",
+      "year": 2024,
+      "jurisdiction": "MG"
+    },
+    "REM-UFMG-2011-Prescritividade": {
+      "title": "Estudo sobre prescritividade das normas de segurança contra incêndio no Brasil",
+      "type": "Artigo científico",
+      "year": 2011,
+      "jurisdiction": "ABNT/BR"
+    },
+    "Diss-UFMG-2007-Okarina": {
+      "title": "Modelagem de incêndio e evacuação em habitações de baixo custo (Smartfire + buildingEXODUS)",
+      "type": "Dissertação de Mestrado – UFMG",
+      "year": 2007,
+      "jurisdiction": "ABNT/BR"
+    },
+    "Diss-UFMG-2018-Aco-FR": {
+      "title": "Dimensionamento em situação de incêndio com aços resistentes ao fogo",
+      "type": "Dissertação de Mestrado – UFMG",
+      "year": 2018,
+      "jurisdiction": "ABNT/BR"
+    },
+    "Tese-UFMG-2022-Diamantina": {
+      "title": "Procedimentos de comunicação de risco de incêndios em centros históricos (Diamantina/MG)",
+      "type": "Tese de Doutorado – UFMG",
+      "year": 2022,
+      "jurisdiction": "MG"
+    },
+    "Monog-UFMG-2022-BIM": {
+      "title": "Implantação do BIM (Revit) em projetos de prevenção contra incêndio (CBMMG)",
+      "type": "Monografia – UFMG",
+      "year": 2022,
+      "jurisdiction": "MG"
+    },
+    "PGIE-2020-Caputo": {
+      "title": "Perícia de Incêndio no âmbito do CBMMG: mapeamento e propostas (com comparação ao CBMSC)",
+      "type": "Artigo/Relatório – PGIE",
+      "year": 2020,
+      "jurisdiction": "MG"
+    }
+  },
+  "claims": [
+    {
+      "id": "K-0001",
+      "topic": "Preservação do local sinistrado",
+      "statement": "Após salvar vidas e controlar o incêndio, a conservação da propriedade e a preservação do local sinistrado devem ser priorizadas para favorecer a perícia (registro fotográfico, isolamento e cadeia de custódia).",
+      "jurisdiction": "SC",
+      "status_vs_MG": "complementar",
+      "source": {
+        "ref": "Ignis-CBMSC-2020",
+        "pages": "4-6",
+        "full_citation": "Ignis, v.5 n.1 (2020), Corpo de Bombeiros Militar de Santa Catarina – periódico técnico."
+      }
+    },
+    {
+      "id": "K-0002",
+      "topic": "Perícia florestal em MG – geotecnologias",
+      "statement": "Para incêndios florestais em MG, o uso de BDQueimadas/INPE, FIRMS/NASA, imagens Sentinel-2 e RPA/drones auxilia na delimitação de área queimada, inferência de origem e planejamento de coleta de evidências.",
+      "jurisdiction": "MG",
+      "status_vs_MG": "alinhado",
+      "source": {
+        "ref": "TCC-ABM-CBMMG-2024",
+        "pages": "cap. metodológico",
+        "full_citation": "ABM/CBMMG (2024). Estudo pericial com sensoriamento remoto em incêndios florestais – Trabalho de Conclusão."
+      }
+    },
+    {
+      "id": "K-0003",
+      "topic": "Prescritividade vs. desempenho (PBD)",
+      "statement": "Normas e ITs brasileiras possuem prescritividade média a alta; recomenda-se implantação gradual do Projeto Baseado em Desempenho com capacitação e critérios de verificação.",
+      "jurisdiction": "ABNT/BR",
+      "status_vs_MG": "complementar",
+      "source": {
+        "ref": "REM-UFMG-2011-Prescritividade",
+        "pages": "Síntese geral",
+        "full_citation": "Revista Escola de Minas – UFMG (2011). Estudo sobre prescritividade das normas de SCI no Brasil."
+      }
+    },
+    {
+      "id": "K-0004",
+      "topic": "TRRF e aço em incêndio",
+      "statement": "O dimensionamento de estruturas de aço em situação de incêndio segue NBR 14323 e a definição de TRRF pela NBR 14432; aços resistentes ao fogo podem reduzir a necessidade/custo de proteção passiva em cenários específicos.",
+      "jurisdiction": "ABNT/BR",
+      "status_vs_MG": "alinhado",
+      "source": {
+        "ref": "Diss-UFMG-2018-Aco-FR",
+        "pages": "Resumo e resultados",
+        "full_citation": "Dissertação de Mestrado – UFMG (2018). Dimensionamento em situação de incêndio com aços FR."
+      }
+    },
+    {
+      "id": "K-0005",
+      "topic": "Habitação de baixo custo – verificação de segurança",
+      "statement": "Em habitações de baixo custo (até 5 pavimentos), podem existir cenários de isenção de TRRF segundo NBR 14432; ainda assim, é obrigatório demonstrar condições de segurança à vida (egresso) com base em simulação e análise de desempenho.",
+      "jurisdiction": "ABNT/BR",
+      "status_vs_MG": "alinhado",
+      "source": {
+        "ref": "Diss-UFMG-2007-Okarina",
+        "pages": "cap. resultados",
+        "full_citation": "Dissertação de Mestrado – UFMG (2007). Modelagem de incêndio e evacuação (Smartfire + buildingEXODUS)."
+      }
+    }
+  ]
+}
