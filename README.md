@@ -119,3 +119,7 @@ Servem como referência de estrutura de DWG e Planta de Risco para projetos PSCI
 > **Aviso:** São modelos ilustrativos oficiais da IT 03.  
 > Use apenas como referência e adapte ao caso concreto conforme as ITs vigentes.
 
+
+
+
+
