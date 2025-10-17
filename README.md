@@ -101,3 +101,21 @@ Mestrando em Propriedade Intelectual e Inovação (PROFNIT / IFNMG)
 
 > 🔐 **Licença:** Uso livre para fins técnicos e educacionais,  
 > mantendo os créditos do autor e o link deste repositório.
+
+## 📐 Modelos IT 03 (CBMMG) – Download Gratuito
+
+Modelos ilustrativos da **IT 03 – Composição do PSCIP** (2ª edição, Portaria 75/2024).  
+Servem como referência de estrutura de DWG e Planta de Risco para projetos PSCIP.
+
+| Modelo | Descrição | Página IT 03 | Download |
+|----------|------------|--------------|-----------|
+| Modelo 01 – E.7 FL 01/05 | Conteúdo do DWG: legenda, carimbo e detalhes técnicos | 87 | [📥 Baixar](https://wellingtonvalente.github.io/pericias-pos-incendio-mg/templates/projetos/Modelo%2001.pdf) |
+| Modelo 02 – FL 02/05 | Planta de situação e elevação com pavimentos | 88 | [📥 Baixar](https://wellingtonvalente.github.io/pericias-pos-incendio-mg/templates/projetos/Modelo%2002.pdf) |
+| Modelo 03 – FL 03/05 | Setorização e destaques em vermelho (exemplo PSCIP) | 89 | [📥 Baixar](https://wellingtonvalente.github.io/pericias-pos-incendio-mg/templates/projetos/Modelo%2003.pdf) |
+| Modelo 04 – FL 04/05 | Planta de pavimento e rotas de fuga | 90 | [📥 Baixar](https://wellingtonvalente.github.io/pericias-pos-incendio-mg/templates/projetos/Modelo%2004.pdf) |
+| Modelo 05 – FL 05/05 | Prancha de detalhamento final | 91 | [📥 Baixar](https://wellingtonvalente.github.io/pericias-pos-incendio-mg/templates/projetos/Modelo%2005.pdf) |
+| Modelo 06 – E.8 Planta de Risco | Layout ilustrativo com símbolos de risco e acessos | 92 | [📥 Baixar](https://wellingtonvalente.github.io/pericias-pos-incendio-mg/templates/projetos/Modelo%2006.pdf) |
+
+> **Aviso:** São modelos ilustrativos oficiais da IT 03.  
+> Use apenas como referência e adapte ao caso concreto conforme as ITs vigentes.
+
