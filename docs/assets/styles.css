@@ -1,13 +1,109 @@
-:root { --bg:#0f172a; --panel:#0b1220; --fg:#e5e7eb; --muted:#94a3b8; --brand:#0b5fff; }
-*{box-sizing:border-box}
-html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);font:16px/1.5 system-ui,Segoe UI,Roboto,Arial}
-.container{max-width:1100px;margin:24px auto;padding:0 16px}
-.hero{padding:36px 16px;text-align:center;background:linear-gradient(135deg,#0b5fff22,#0000)}
-.hero h1{margin:0 0 8px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin:12px 0 24px}
-.card{background:var(--panel);border:1px solid #1f2a44;border-radius:14px;padding:16px;text-decoration:none;color:var(--fg);display:flex;align-items:center;justify-content:center;min-height:64px}
-.btn{background:linear-gradient(180deg,#0b5fff,#0948c7);border:none}
-.btn:hover{filter:brightness(1.05)}
-.panel{background:var(--panel);border:1px solid #1f2a44;border-radius:14px;padding:16px;margin:16px 0}
-.footer{opacity:.7;text-align:center;padding:24px 16px}
-a{color:#9ec1ff}
+:root {
+  --bg:#0f172a;
+  --panel:#0b1220;
+  --fg:#e5e7eb;
+  --muted:#94a3b8;
+  --brand:#0b5fff;
+  --accent:#ffc107;
+}
+
+*{box-sizing:border-box;}
+html,body{
+  margin:0;
+  padding:0;
+  background:var(--bg);
+  color:var(--fg);
+  font:16px/1.5 "Segoe UI",Roboto,Arial,sans-serif;
+}
+
+/* ----- HEADER ----- */
+.hero{
+  padding:48px 16px 32px;
+  text-align:center;
+  background:linear-gradient(135deg,#0b5fff33,#0000);
+}
+.hero h1{
+  margin:0;
+  color:#fff;
+  font-size:2rem;
+}
+.hero p{
+  margin-top:8px;
+  color:var(--muted);
+  font-weight:500;
+}
+
+/* ----- LAYOUT GERAL ----- */
+.container{
+  max-width:1100px;
+  margin:0 auto;
+  padding:0 16px 40px;
+}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:16px;
+  margin:24px 0;
+}
+
+/* ----- CARDS / BOTÕES ----- */
+.card{
+  background:var(--panel);
+  border:1px solid #1f2a44;
+  border-radius:14px;
+  padding:18px;
+  text-align:center;
+  text-decoration:none;
+  color:var(--fg);
+  font-weight:600;
+  transition:.2s;
+  min-height:64px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.card:hover{
+  filter:brightness(1.15);
+  transform:translateY(-2px);
+}
+.btn{
+  background:linear-gradient(180deg,#0b5fff,#0948c7);
+  color:#fff;
+}
+
+/* ----- PAINÉIS DE CONTEÚDO ----- */
+.panel{
+  background:var(--panel);
+  border:1px solid #1f2a44;
+  border-radius:14px;
+  padding:20px;
+  margin:16px 0;
+}
+.panel h2{
+  margin-top:0;
+  color:var(--accent);
+  font-size:1.2rem;
+}
+
+/* ----- RODAPÉ ----- */
+.footer{
+  opacity:.7;
+  text-align:center;
+  padding:24px 16px;
+  border-top:1px solid #1f2a44;
+  font-size:.9rem;
+}
+
+/* ----- LINKS ----- */
+a{
+  color:#9ec1ff;
+}
+a:hover{
+  color:var(--accent);
+}
+
+/* ----- RESPONSIVIDADE ----- */
+@media(max-width:600px){
+  .hero h1{font-size:1.5rem;}
+  .panel h2{font-size:1rem;}
+}
