@@ -1,0 +1,16 @@
+{
+  "ultima_atualizacao": "2025-10-20",
+  "links": {
+    "it03_modelos": [
+      "../templates/projetos/Modelo%2001.pdf",
+      "../templates/projetos/Modelo%2002.pdf",
+      "../templates/projetos/Modelo%2003.pdf",
+      "../templates/projetos/Modelo%2004.pdf",
+      "../templates/projetos/Modelo%2005.pdf",
+      "../templates/projetos/Modelo%2006.pdf"
+    ],
+    "json_pos_incendio_consolidado": "../pericias_pos_incendio_mg.json",
+    "json_normas_consolidado": "https://wellingtonvalente.github.io/normas-bombeiros/normas_com_texto.json"
+  },
+  "observacao": "Arquivo de índice auxiliar. Não substitui os JSONs consolidados."
+}
