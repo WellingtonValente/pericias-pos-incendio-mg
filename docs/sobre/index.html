@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Sobre o Assistente — Prevenção e Combate a Incêndios MG</title>
+  <meta name="description" content="Assistente técnico do Eng. Wellington G. Valente (CREA-MG 160.396/D) para normas do CBMMG/ABNT/NR-23 em Minas Gerais.">
+  <link rel="stylesheet" href="../assets/styles.css">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Sobre o Assistente — Prevenção e Combate a Incêndios MG">
+  <meta property="og:description" content="Assistente técnico do Eng. Wellington G. Valente para CBMMG/ABNT/NR-23 em MG.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <!-- JSON-LD mínimo para SEO -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"SoftwareApplication",
+    "name":"Assistente de Prevenção e Combate a Incêndios – MG",
+    "applicationCategory":"EngineeringApplication",
+    "operatingSystem":"Web",
+    "creator":{
+      "@type":"Person",
+      "name":"Eng. Wellington Gonçalves Valente",
+      "jobTitle":"Engenheiro Civil e de Segurança do Trabalho",
+      "identifier":"CREA-MG 160.396/D"
+    },
+    "url":"https://wellingtonvalente.github.io/pericias-pos-incendio-mg/"
+  }
+  </script>
+</head>
+<body>
+  <header class="hero">
+    <h1>ℹ️ Sobre o Assistente</h1>
+    <p>Prevenção e Combate a Incêndios — Minas Gerais (CBMMG/ABNT/NR-23)</p>
+  </header>
+
+  <main class="container">
+    <section class="panel">
+      <h2>Identidade</h2>
+      <p>Este assistente foi desenvolvido por <strong>Eng. Wellington Gonçalves Valente</strong> — CREA-MG 160.396/D. 
+      O objetivo é fornecer <strong>orientações técnicas e educacionais</strong> com base nas 
+      <strong>Instruções Técnicas (ITs) do CBMMG</strong>, nas <strong>normas ABNT</strong> e na <strong>NR-23</strong>, 
+      especificamente para Minas Gerais.</p>
+    </section>
+
+    <section class="panel">
+      <h2>Escopo e Fontes</h2>
+      <ul>
+        <li>Jurisdicional: <strong>Minas Gerais (CBMMG)</strong>.</li>
+        <li>Operação: <strong>sem web browsing</strong>; consulta a bases públicas sob whitelist.</li>
+        <li>Whitelists principais (GitHub Pages):
+          <ul>
+            <li>Conversor XLSX: <code>/gerar-planilha-cbmmg/</code></li>
+            <li>Modelos IT-03 (01–06): <code>/pericias-pos-incendio-mg/templates/projetos/</code></li>
+            <li>Base Pós-Incêndio (JSON): <code>/pericias-pos-incendio-mg/pericias_pos_incendio_mg.json</code></li>
+            <li>Endereços SSCIP (JSON): <code>/pericias-pos-incendio-mg/enderecos_cbmmg.json</code></li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <section class="panel">
+      <h2>Como responder</h2>
+      <ul>
+        <li><strong>Leigos</strong>: linguagem simples, exemplos práticos, checklist final.</li>
+        <li><strong>Profissionais</strong>: linguagem técnica e citação padronizada: 
+          <em>IT 03/CBMMG (2ª ed., Port. 75/2024), item 4.2</em>.</li>
+        <li>Para <strong>cálculos/planilhas/simulações</strong>, usar o módulo dedicado (link no portal).</li>
+        <li>Para <strong>Endereços SSCIP</strong>, consultar exclusivamente o JSON local; se a cidade não existir, orientar o portal oficial do CBMMG.</li>
+      </ul>
+    </section>
+
+    <section class="panel">
+      <h2>Avisos</h2>
+      <ul>
+        <li>Conteúdo <strong>informativo</strong>. O assistente <strong>não representa</strong> o CBMMG.</li>
+        <li>Não há <strong>promessa de aprovação</strong> de projetos; trata-se de orientação técnica.</li>
+        <li>Quando a atividade exigir, recomenda-se contratar profissional habilitado.</li>
+      </ul>
+    </section>
+
+    <section class="panel">
+      <h2>Contato Profissional</h2>
+      <p><strong>Eng. Wellington Gonçalves Valente</strong> — CREA-MG 160.396/D</p>
+      <p>📞 <a href="https://wa.me/5533988565194" target="_blank">WhatsApp</a> · 
+         📸 <a href="https://www.instagram.com/engenheirowellingtonvalente/" target="_blank">Instagram</a></p>
+    </section>
+
+    <section class="panel">
+      <h2>Transparência</h2>
+      <p>Última atualização deste portal: <strong><span id="today"></span></strong>.</p>
+    </section>
+
+    <div class="panel">
+      <a class="card" href="../" target="_self">⬅ Voltar ao portal</a>
+    </div>
+  </main>
+
+  <footer class="footer">
+    © 2025 — Eng. Wellington G. Valente · Informativo independente (não representa o CBMMG).
+  </footer>
+
+  <script>
+    // data de hoje no rodapé
+    document.getElementById('today').textContent = new Date().toLocaleDateString('pt-BR');
+  </script>
+</body>
+</html>
