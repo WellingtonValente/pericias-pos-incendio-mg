@@ -1,1 +1,1662 @@
-
+{
+  "fonte": "CBMMG — Endereços de Unidades com SSCIP (cópia local fornecida pelo usuário)",
+  "ultima_atualizacao": "2025-10-20",
+  "aviso": "Arquivo informativo. O assistente não representa o CBMMG. Se a cidade não constar, consultar o portal oficial (bombeiros.mg.gov.br/enderecos).",
+  "unidades": [
+    {
+      "cidade_base": "Belo Horizonte",
+      "unidade": "Centro de Atividades Técnicas (CAT)",
+      "endereco": "Alameda José Maria Alkimim, 1822 - Serra Verde, Belo Horizonte - MG",
+      "cep": "31630-060",
+      "telefones": [
+        "(31) 3916-0969"
+      ],
+      "email": "cat.recepcao@bombeiros.mg.gov.br",
+      "municipios_atendidos": [
+        "Belo Horizonte",
+        "Nova Lima",
+        "Raposos",
+        "Rio Acima",
+        "Contagem",
+        "Betim",
+        "Brumadinho",
+        "Bonfim",
+        "Moeda",
+        "Mário Campos",
+        "Sarzedo",
+        "Ibirité",
+        "Ribeirão das Neves",
+        "Esmeraldas",
+        "Caeté",
+        "Sabará",
+        "Nova União",
+        "Taquaraçu de Minas",
+        "Confins",
+        "Pedro Leopoldo",
+        "São José da Lapa",
+        "Vespasiano",
+        "Conceição do Mato Dentro",
+        "Congonhas do Norte",
+        "Jaboticatubas",
+        "Lagoa Santa",
+        "Morro do Pilar",
+        "Santana do Riacho",
+        "Santa Luzia",
+        "Juatuba",
+        "Florestal",
+        "Igarapé",
+        "São Joaquim de Bicas",
+        "Mateus Leme"
+      ]
+    },
+    {
+      "cidade_base": "Alfenas",
+      "unidade": "3ª Cia. / 1ª Cia. Ind. / 6º Comando Operacional",
+      "endereco": "Rua Benjamim Constant, 1500 – Jardim São Carlos – Alfenas / MG",
+      "cep": "37130-000",
+      "telefones": [
+        "(35) 3698-2143"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Alfenas",
+        "Alterosa",
+        "Areado",
+        "Campo do Meio",
+        "Campos Gerais",
+        "Divisa Nova",
+        "Fama",
+        "Paraguaçu",
+        "Serrania",
+        "Carvalhópolis",
+        "Machado",
+        "Poço Fundo",
+        "Conceição da Aparecida"
+      ]
+    },
+    {
+      "cidade_base": "Almenara",
+      "unidade": "2º Pel. / 2ª Cia. / 6º Batalhão / 5º Comando Operacional",
+      "endereco": "Avenida Epitácio Costa Aquino, 594 – Parque São João – Almenara / MG",
+      "cep": "39900-000",
+      "telefones": [
+        "(33) 3721-3451"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Almenara",
+        "Bandeira",
+        "Divisópolis",
+        "Felisburgo",
+        "Jacinto",
+        "Jequitinhonha",
+        "Joaíma",
+        "Jordânia",
+        "Mata Verde",
+        "Monte Formoso",
+        "Palmópolis",
+        "Pedra Azul",
+        "Rio do Prado",
+        "Rubim",
+        "Salto da Divisa",
+        "Santa Maria do Salto",
+        "Santo Antônio do Jacinto",
+        "Águas Vermelhas",
+        "Araçuaí",
+        "Cachoeira do Pajeú",
+        "Comercinho",
+        "Coronel Murta",
+        "Virgem da Lapa",
+        "Berilo",
+        "Francisco Badaró",
+        "Jenipapo de Minas",
+        "Divisa Alegre",
+        "Itaobim",
+        "Itinga",
+        "Medina",
+        "Padre Paraíso",
+        "Ponto dos Volantes",
+        "José Gonçalves de Minas"
+      ]
+    },
+    {
+      "cidade_base": "Araxá",
+      "unidade": "2ª Cia. / 8º Batalhão / 2º Comando Operacional",
+      "endereco": "Av. Damaso Drumond, 01 – Vila Guimarães – Araxá / MG",
+      "cep": "38183-063",
+      "telefones": [
+        "(34) 3661-0820",
+        "(34) 3661-0821"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Araxá",
+        "Pedrinópolis",
+        "Perdizes",
+        "Santa Juliana",
+        "Tapira",
+        "Conquista",
+        "Sacramento"
+      ]
+    },
+    {
+      "cidade_base": "Araguari",
+      "unidade": "2ª Cia. / 5º Batalhão / 2º Comando Operacional",
+      "endereco": "Av. Santos Dumont, 739 – Aeroporto – Araguari / MG",
+      "cep": "38440-286",
+      "telefones": [
+        "(34) 3242-6397"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Araguari",
+        "Cascalho Rico",
+        "Estrela do Sul",
+        "Grupiara",
+        "Indianópolis",
+        "Araporã",
+        "Centralina",
+        "Tupaciguara"
+      ]
+    },
+    {
+      "cidade_base": "Barbacena",
+      "unidade": "1ª Cia. / 2ª Cia. Ind. / 3º Comando Operacional",
+      "endereco": "Rua Barbara Eleodora, 171 - Bairro P. Cunha – Barbacena / MG",
+      "cep": "36200-000",
+      "telefones": [
+        "(32) 3052-6629"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Alfredo Vasconcelos",
+        "Alto Rio Doce",
+        "Antônio Carlos",
+        "Aracitaba",
+        "Barbacena",
+        "Barroso",
+        "Bias Fortes",
+        "Cipotânea",
+        "Desterro do Melo",
+        "Ibertioga",
+        "Oliveira Fortes",
+        "Paiva",
+        "Santa Bárbara do Tugúrio",
+        "Santa Rita de Ibitipoca",
+        "Santana do Garambéu",
+        "Senhora dos Remédio"
+      ]
+    },
+    {
+      "cidade_base": "Belo Horizonte",
+      "unidade": "Centro de Atividades Técnicas (CAT) — Prédio Alterosas",
+      "endereco": "Rodovia Papa João Paulo II, 4143 – Prédio Alterosas – Serra Verde – Belo Horizonte / MG",
+      "cep": "31630-900",
+      "telefones": [
+        "(31) 3916-0969"
+      ],
+      "email": "cat.recepcao@bombeiros.mg.gov.br",
+      "municipios_atendidos": [
+        "Belo Horizonte",
+        "Nova Lima",
+        "Raposos",
+        "Rio Acima",
+        "Contagem",
+        "Betim",
+        "Brumadinho",
+        "Bonfim",
+        "Moeda",
+        "Mário Campos",
+        "Sarzedo",
+        "Ibirité",
+        "Ribeirão das Neves",
+        "Esmeraldas",
+        "Caeté",
+        "Sabará",
+        "Nova União",
+        "Taquaraçu de Minas",
+        "Confins",
+        "Pedro Leopoldo",
+        "São José da Lapa",
+        "Vespasiano",
+        "Conceição do Mato Dentro",
+        "Congonhas do Norte",
+        "Jaboticatubas",
+        "Lagoa Santa",
+        "Morro do Pilar",
+        "Santana do Riacho",
+        "Santa Luzia",
+        "Juatuba",
+        "Florestal",
+        "Igarapé",
+        "São Joaquim de Bicas",
+        "Mateus Leme"
+      ]
+    },
+    {
+      "cidade_base": "Campos Altos",
+      "unidade": "PA / 2ª Cia. / 8º Batalhão / 2º Comando Operacional",
+      "endereco": "Rua Irmã Consolata Palezi, 582 - Boa Esperança - Campos Altos / MG",
+      "cep": "38970-000",
+      "telefones": [
+        "(37) 3426-4300",
+        "(37) 3426-4385",
+        "(37) 3426-4115"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Bambuí",
+        "Campos Altos",
+        "Córrego Danta",
+        "Ibiá",
+        "Medeiros",
+        "Pratinha",
+        "Santa Rosa da Serra",
+        "Serra da Saudade",
+        "Tapiraí"
+      ]
+    },
+    {
+      "cidade_base": "Caratinga",
+      "unidade": "2º Pel. / 2ª Cia. / 11º Batalhão / 5º Comando Operacional",
+      "endereco": "Av. Presidente Tancredo Neves, 1141 – Esplanada – Caratinga / MG",
+      "cep": "35300-102",
+      "telefones": [
+        "(33) 3322-4646"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Bom Jesus do Galho",
+        "Caratinga",
+        "Córrego Novo",
+        "Dom Cavati",
+        "Entre Folhas",
+        "Imbé de Minas",
+        "Inhapim",
+        "Piedade de Caratinga",
+        "Santa Bárbara do Leste",
+        "Santa Rita de Minas",
+        "São Domingos das Dores",
+        "São Sebastião do Anta",
+        "Ubaporanga",
+        "Vargem Alegre",
+        "Vermelho Novo"
+      ]
+    },
+    {
+      "cidade_base": "Conselheiro Lafaiete",
+      "unidade": "2ª Cia. / 2ª Cia. Ind. / 3º Comando Operacional",
+      "endereco": "Rua Marechal Deodoro, 08 – Santa Matilde – Conselheiro Lafaiete / MG",
+      "cep": "36400-000",
+      "telefones": [
+        "(31) 3761-5062",
+        "(31) 3761-5291"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Casa Grande",
+        "Catas Altas da Noruega",
+        "Conselheiro Lafaiete",
+        "Cristiano Otoni",
+        "Desterro de Entre Rios",
+        "Entre Rios de Minas",
+        "Itaverava",
+        "Lamim",
+        "Piranga",
+        "Queluzito",
+        "Rio Espera",
+        "Santana dos Montes",
+        "São Brás do Suaçuí",
+        "Senhora de Oliveira",
+        "Capela Nova",
+        "Caranaíba",
+        "Carandaí",
+        "Ressaquinha",
+        "Belo Vale",
+        "Congonhas",
+        "Jeceaba",
+        "Ouro Branco"
+      ]
+    },
+    {
+      "cidade_base": "Curvelo",
+      "unidade": "2º Pel. / 1ª Cia. / 5ª Cia. Ind. / 1º Comando Operacional",
+      "endereco": "Rua Poá, 27 – Santa Rita – Curvelo / MG",
+      "cep": "35790-000",
+      "telefones": [
+        "(38) 3721-7204"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Augusto de Lima",
+        "Buenópolis",
+        "Corinto",
+        "Curvelo",
+        "Inimutaba",
+        "Joaquim Felício",
+        "Morro da Garça",
+        "Presidente Juscelino",
+        "Santa Hipólito",
+        "Biquinhas",
+        "Felixlândia",
+        "Morada Nova de Minas",
+        "Três Marias",
+        "Paineiras"
+      ]
+    },
+    {
+      "cidade_base": "Diamantina",
+      "unidade": "1ª Cia. / 6ª Cia. Ind / 4º Comando Operacional",
+      "endereco": "Largo Dom João, 114 – Centro – Diamantina / MG",
+      "cep": "39100-000",
+      "telefones": [
+        "(38) 3531-9230"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Alvorada de Minas",
+        "Couto de Magalhães de Minas",
+        "Datas",
+        "Diamantina",
+        "Felício dos Santos",
+        "Gouveia",
+        "Monjolos",
+        "Presidente Kubitschek",
+        "Santo Antônio do Itambé",
+        "São Gonçalo do Rio Preto",
+        "Senador Modestino Gonçalves",
+        "Serra Azul de Minas",
+        "Serro",
+        "Angelândia",
+        "Aricanduva",
+        "Capelinha",
+        "Carbonita",
+        "Chapada do Norte",
+        "Itamarandiba",
+        "Leme do Prado",
+        "Minas Novas",
+        "Turmalina",
+        "Veredinha"
+      ]
+    },
+    {
+      "cidade_base": "Divinópolis",
+      "unidade": "1ª Cia. / 10º Batalhão / 1º Comando Operacional",
+      "endereco": "Av. Via Expressa JK, 2122 – Bom Pastor – Divinópolis / MG",
+      "cep": "35500-155",
+      "telefones": [
+        "(37) 3690-3919",
+        "(37) 3690-3918",
+        "(37) 3690-3920"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Aguanil",
+        "Cana Verde",
+        "Carmo do Cajuru",
+        "Cristais",
+        "Divinópolis",
+        "Pedra do Indaiá",
+        "São Gonçalo do Pará",
+        "São Sebastião do Oeste",
+        "Santo Antônio do Monte"
+      ]
+    },
+    {
+      "cidade_base": "Extrema",
+      "unidade": "3º Pel. / 1ª Cia. / 7ª Cia. Ind. / 6º Comando Operacional",
+      "endereco": "Estrada Municipal Benedito Thomás da Silva, 45 – Ponte Nova – Extrema / MG",
+      "cep": "37640-000",
+      "telefones": [
+        "(35) 3435-3420",
+        "(35) 3435-5705",
+        "(35) 3435-4731"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Camanducaia",
+        "Cambuí",
+        "Córrego do Bom Jesus",
+        "Extrema",
+        "Itapeva",
+        "Munhoz",
+        "Senador Amaral",
+        "Toledo"
+      ]
+    },
+    {
+      "cidade_base": "Formiga",
+      "unidade": "5º Pel. / 1ª Cia. / 10º Batalhão / 1º Comando Operacional",
+      "endereco": "Rodovia MG-050, Km 202,9 – Bairro Souza e Silva – Formiga / MG",
+      "cep": "35570-000",
+      "telefones": [
+        "(37) 3322-8027",
+        "(37) 9421-0022",
+        "(37) 3322-3284"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Candeias",
+        "Campo Belo",
+        "Córrego Fundo",
+        "Formiga",
+        "Pains",
+        "Arcos",
+        "Bambuí",
+        "Iguatama",
+        "Japaraíba",
+        "Lagoa da Prata"
+      ]
+    },
+    {
+      "cidade_base": "Frutal",
+      "unidade": "7º Pel. / 1ª Cia. / 8º Batalhão / 2º Comando Operacional",
+      "endereco": "Avenida Brasília, 645 – Centro – Frutal / MG",
+      "cep": "38200-000",
+      "telefones": [
+        "(34) 3423-2200"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Campo Florido",
+        "Comendador Gomes",
+        "Fronteira",
+        "Frutal",
+        "Itapagipe",
+        "Pirajuba",
+        "Planura"
+      ]
+    },
+    {
+      "cidade_base": "Governador Valadares",
+      "unidade": "1ª Cia. / 6º Batalhão / 5º Comando Operacional",
+      "endereco": "Rua São Paulo, 1047 – Centro – Governador Valadares / MG",
+      "cep": "35012-240",
+      "telefones": [
+        "(33) 3279-3637",
+        "(33) 3279-3638"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Alpercata",
+        "Alvarenga",
+        "Capitão Andrade",
+        "Central de Minas",
+        "Coroaci",
+        "Divino das Laranjeiras",
+        "Engenheiro Caldas",
+        "Fernandes Tourinho",
+        "Frei Inocêncio",
+        "Galiléia",
+        "Governador Valadares",
+        "Itabirinha",
+        "Itanhomi",
+        "Jampruca",
+        "Mantena",
+        "Marilac",
+        "Mathias Lobato",
+        "Mendes Pimentel",
+        "Nacip Raydan",
+        "Nova Belém",
+        "Periquito",
+        "Santa Efigênia de Minas",
+        "São Félix de Minas",
+        "São Geraldo da Piedade",
+        "São Geraldo do Baixio",
+        "São João do Manteninha",
+        "São José da Safira",
+        "Sardoá",
+        "Sobrália",
+        "Tarumirim",
+        "Tumiritinga",
+        "Virgolândia"
+      ]
+    },
+    {
+      "cidade_base": "Guaxupé",
+      "unidade": "4º Pel. / 2ª Cia. / 1ª Cia. Ind. / 6º Comando Operacional",
+      "endereco": "Rua Bahia, 164 – Nossa Senhora das Dores – Guaxupé / MG",
+      "cep": "37800-000",
+      "telefones": [
+        "(35) 3551-4560"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Arceburgo",
+        "Guaranésia",
+        "Guaxupé",
+        "Juruaia",
+        "Monte Belo",
+        "Muzambinho",
+        "Nova Resende",
+        "São Pedro da União"
+      ]
+    },
+    {
+      "cidade_base": "Ipatinga",
+      "unidade": "1ª Cia. / 11º Batalhão / 5º Comando Operacional",
+      "endereco": "Rua Ituiutaba, 135 – Centro – Ipatinga / MG",
+      "cep": "35160-025",
+      "telefones": [
+        "(31) 3827-8850"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Açucena",
+        "Belo Oriente",
+        "Bugre",
+        "Braúnas",
+        "Iapu",
+        "Ipaba",
+        "Ipatinga",
+        "Joanésia",
+        "Mesquita",
+        "Naque",
+        "Pingo D’água",
+        "Santana do Paraíso",
+        "São João do Oriente",
+        "Antônio Dias",
+        "Coronel Fabriciano",
+        "Jaguaraçu"
+      ]
+    },
+    {
+      "cidade_base": "Itabira",
+      "unidade": "6º Pel. / 1ª Cia. / 11º Batalhão / 5º Comando Operacional",
+      "endereco": "Rua São Paulo, 377 – Amazonas – Itabira / MG",
+      "cep": "35900-373",
+      "telefones": [
+        "(31) 3831-7467"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Carmésia",
+        "Ferros",
+        "Itabira",
+        "Itambé do Mato Dentro",
+        "Passabém",
+        "Santa Maria de Itabira",
+        "Santo Antônio do Rio Abaixo",
+        "São Sebastião do Rio Preto",
+        "Barão de Cocais",
+        "Bela Vista de Minas",
+        "Bom Jesus do Amparo",
+        "João Monlevade",
+        "Nova Era",
+        "Rio Piracicaba",
+        "São Gonçalo do Rio Abaixo",
+        "Santa Bárbara",
+        "São Domingos do Prata"
+      ]
+    },
+    {
+      "cidade_base": "Itajubá",
+      "unidade": "2º Pel. / 1ª Cia. / 7ª Cia. Ind. / 6º Comando Operacional",
+      "endereco": "Rua Antiogo Poddis, 196 – N. Sra. de Lourdes – Itajubá / MG",
+      "cep": "37500-000",
+      "telefones": [
+        "(35) 3692-1790",
+        "(35) 3692-1874"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Brasópolis",
+        "Consolação",
+        "Delfim Moreira",
+        "Gonçalves",
+        "Itajubá",
+        "Maria da Fé",
+        "Marmelópolis",
+        "Paraisópolis",
+        "Pedralva",
+        "Piranguçu",
+        "Piranguinho",
+        "São José do Alegre",
+        "Sapucaí-Mirim",
+        "Wenceslau Braz"
+      ]
+    },
+    {
+      "cidade_base": "Itaúna",
+      "unidade": "2º Pel. / 2ª Cia. / 10º Batalhão / 1º Comando Operacional",
+      "endereco": "Rod. 431, Km 46 - Fazenda da Chácara - Itaúna / MG",
+      "cep": "35680-214",
+      "telefones": [
+        "(37) 3242-5256",
+        "(37) 99905-8270",
+        "(37) 99939-5628"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Crucilândia",
+        "Itaguara",
+        "Itatiaiuçu",
+        "Itaúna",
+        "Piedade dos Gerais",
+        "Rio Manso"
+      ]
+    },
+    {
+      "cidade_base": "Ituiutaba",
+      "unidade": "2º Pel. / 2ª Cia. / 5º Batalhão / 2º Comando Operacional",
+      "endereco": "Av. Dezenove, 228 – Centro – Ituiutaba / MG",
+      "cep": "38300-124",
+      "telefones": [
+        "(34) 3268-1932",
+        "(34) 3269-4094"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Cachoeira Dourada",
+        "Canápolis",
+        "Capinópolis",
+        "Gurinhatã",
+        "Ipiaçu",
+        "Ituiutaba",
+        "Monte Alegre de Minas",
+        "Prata",
+        "Santa Vitória"
+      ]
+    },
+    {
+      "cidade_base": "Iturama",
+      "unidade": "8º Pel. / 1ª Cia. / 8º Batalhão / 2º Comando Operacional",
+      "endereco": "Rua Ituiutaba, 1105 - Centro - Iturama / MG",
+      "cep": "38280-000",
+      "telefones": [],
+      "email": "",
+      "municipios_atendidos": [
+        "Campina Verde",
+        "Carneirinho",
+        "Iturama",
+        "Limeira do Oeste",
+        "São Francisco de Sales",
+        "União de Minas"
+      ]
+    },
+    {
+      "cidade_base": "Janaúba",
+      "unidade": "6º Pel. / 1ª Cia. / 7º Batalhão / 4º Comando Operacional",
+      "endereco": "Av. Marechal Deodoro, 134 – Centro – Janaúba / MG",
+      "cep": "39444-000",
+      "telefones": [
+        "(38) 3821-1093"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Catuti",
+        "Espinosa",
+        "Gameleiras",
+        "Jaíba",
+        "Janaúba",
+        "Mamonas",
+        "Matias Cardoso",
+        "Mato Verde",
+        "Monte Azul",
+        "Montezuma",
+        "Nova Porteirinha",
+        "Pai Pedro",
+        "Porteirinha",
+        "Riacho dos Machados",
+        "Santo Antônio do Retiro",
+        "Serranópolis de Minas",
+        "Verdelândia"
+      ]
+    },
+    {
+      "cidade_base": "Januária",
+      "unidade": "7º Pel. / 1ª Cia. / 7º Batalhão / 4º Comando Operacional",
+      "endereco": "Rua Mário José Lisboa, 200 – Alto dos Porções - Januária / MG",
+      "cep": "39480-000",
+      "telefones": [
+        "(38) 3621-1442",
+        "(38) 3621-1185"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Bonito de Minas",
+        "Brasília de Minas",
+        "Campo Azul",
+        "Cônego Marinho",
+        "Ibiracatu",
+        "Icaraí de Minas",
+        "Itacarambi",
+        "Januária",
+        "Japonvar",
+        "Juvenília",
+        "Lontra",
+        "Luislândia",
+        "Manga",
+        "Miravânia",
+        "Montalvânia",
+        "Pedras de Maria da Cruz",
+        "Pintópolis",
+        "São Francisco",
+        "São João da Ponte",
+        "São João das Missões",
+        "Ubaí",
+        "Varzelândia"
+      ]
+    },
+    {
+      "cidade_base": "Juiz de Fora",
+      "unidade": "1ª Cia. / 4º Batalhão / 3º Comando Operacional",
+      "endereco": "Av. Brasil, 3405 – Centro – Juiz de Fora / MG",
+      "cep": "36060-010",
+      "telefones": [
+        "(32) 3228-9637",
+        "(32) 3231-3518"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Arantina",
+        "Belmiro Braga",
+        "Bicas",
+        "Bom Jardim de Minas",
+        "Chácara",
+        "Chiador",
+        "Coronel Pacheco",
+        "Descoberto",
+        "Ewbank da Câmara",
+        "Goianá",
+        "Guarará",
+        "Juiz de Fora",
+        "Lima Duarte",
+        "Mar de Espanha",
+        "Maripá de Minas",
+        "Matias Barbosa",
+        "Olaria",
+        "Pedro Teixeira",
+        "Pequeri",
+        "Piau",
+        "Rio Novo",
+        "Rio Preto",
+        "Rochedo de Minas",
+        "Santa Bárbara do Monte Verde",
+        "Santa Rita de Jacutinga",
+        "Santana do Deserto",
+        "Santos Dumont",
+        "São João Nepomuceno",
+        "Senador Cortês",
+        "Simão Pereira"
+      ]
+    },
+    {
+      "cidade_base": "Lavras",
+      "unidade": "2ª Cia. / 9º Batalhão / 6º Comando Operacional",
+      "endereco": "Av. Ernesto Matiolli, 918 - Santa Efigênia - Lavras / MG",
+      "cep": "37200-000",
+      "telefones": [
+        "(35) 3826-2340"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Bom Sucesso",
+        "Carrancas",
+        "Ibituruna",
+        "Ijaci",
+        "Ingaí",
+        "Itumirim",
+        "Itutinga",
+        "Lavras",
+        "Luminárias",
+        "Nepomuceno",
+        "Perdões",
+        "Ribeirão Vermelho"
+      ]
+    },
+    {
+      "cidade_base": "Leopoldina",
+      "unidade": "7º Pel. / 1ª Cia. / 4º Batalhão / 3º Comando Operacional",
+      "endereco": "Rua José Peres, 684 – Centro – Leopoldina / MG",
+      "cep": "36700-000",
+      "telefones": [
+        "(32) 3441-3766"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Argirita",
+        "Cataguases",
+        "Itamarati de Minas",
+        "Laranjal",
+        "Leopoldina",
+        "Palma",
+        "Recreio",
+        "Além Paraíba",
+        "Estrela Dalva",
+        "Pirapetinga",
+        "Santo Antônio do Aventureiro",
+        "Volta Grande"
+      ]
+    },
+    {
+      "cidade_base": "Manhuaçu",
+      "unidade": "2ª Cia. / 11º Batalhão / 5º Comando Operacional",
+      "endereco": "Rua Docelina Zanirate, 250 – Alfa Sul – Manhuaçu / MG",
+      "cep": "36900-000",
+      "telefones": [
+        "(33) 3331-6129"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Abre Campo",
+        "Alto Caparaó",
+        "Alto Jequitibá",
+        "Caiana",
+        "Caparaó",
+        "Caputira",
+        "Chalé",
+        "Conceição de Ipanema",
+        "Divino",
+        "Durandé",
+        "Espera Feliz",
+        "Ipanema",
+        "Lajinha",
+        "Luisburgo",
+        "Manhuaçu",
+        "Manhumirim",
+        "Martins Soares",
+        "Matipó",
+        "Mutum",
+        "Orizânia",
+        "Pedra Bonita",
+        "Reduto",
+        "Santa Margarida",
+        "Santana do Manhuaçu",
+        "São João do Manhuaçu",
+        "São José do Mantimento",
+        "Simonésia",
+        "Taparuba"
+      ]
+    },
+    {
+      "cidade_base": "Montes Claros",
+      "unidade": "1ª Cia. / 7º Batalhão / 4º Comando Operacional",
+      "endereco": "Av. Major Alexandre Rodrigues, 3001 – Ibituruna – Montes Claros / MG",
+      "cep": "39401-301",
+      "telefones": [
+        "(38) 3218-7403"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Claro dos Poções",
+        "Coração de Jesus",
+        "Glaucilândia",
+        "Itacambira",
+        "Juramento",
+        "Mirabela",
+        "Montes Claros",
+        "Patis",
+        "São João da Lagoa",
+        "São João do Pacuí",
+        "Bocaiúva",
+        "Engenheiro Navarro",
+        "Francisco Dumont",
+        "Guaraciama",
+        "Olhos d’Água",
+        "Botumirim",
+        "Capitão Enéas",
+        "Cristália",
+        "Francisco Sá",
+        "Grão Mogol"
+      ]
+    },
+    {
+      "cidade_base": "Muriaé",
+      "unidade": "2º Pel. / 2ª Cia. / 4º Batalhão / 3º Comando Operacional",
+      "endereco": "Rua Manoel Pereira de Carvalho, s/n – Gávea – Muriaé / MG",
+      "cep": "36880-000",
+      "telefones": [
+        "(32) 3728-4327"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Antônio Prado de Minas",
+        "Barão de Monte Alto",
+        "Carangola",
+        "Eugenópolis",
+        "Faria Lemos",
+        "Fervedouro",
+        "Miradouro",
+        "Miraí",
+        "Muriaé",
+        "Patrocínio do Muriaé",
+        "Pedra Dourada",
+        "Rosário da Limeira",
+        "Santana dos Cataguases",
+        "São Francisco do Glória",
+        "São Sebastião da Vargem Alegre",
+        "Tombos",
+        "Vieiras"
+      ]
+    },
+    {
+      "cidade_base": "Nova Serrana",
+      "unidade": "3º Pel. / 2ª Cia. / 10º Batalhão / 1º Comando Operacional",
+      "endereco": "Rua Messias Augusto da Silva, 19311 – Adalberto F. do Amaral – Nova Serrana / MG",
+      "cep": "35519-000",
+      "telefones": [
+        "(37) 3226-8727"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Araújos",
+        "Conceição do Pará",
+        "Leandro Ferreira",
+        "Nova Serrana",
+        "Perdigão",
+        "Pitangui",
+        "Abaeté",
+        "Bom Despacho",
+        "Cedro do Abaeté",
+        "Dores do Indaiá",
+        "Luz",
+        "Martinho Campos",
+        "Moema",
+        "Pompéu",
+        "Quartel Geral",
+        "Estrela do Indaiá"
+      ]
+    },
+    {
+      "cidade_base": "Oliveira",
+      "unidade": "6º Pel. / 1ª Cia. / 10º Batalhão / 1º Comando Operacional",
+      "endereco": "BR-494, Km 108, s/n – Oliveira / MG",
+      "cep": "",
+      "telefones": [
+        "(37) 3332-7068"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Camacho",
+        "Carmo da Mata",
+        "Carmópolis de Minas",
+        "Cláudio",
+        "Itapecerica",
+        "Oliveira",
+        "Passa Tempo",
+        "Piracema",
+        "Santana do Jacaré",
+        "Santo Antônio do Amparo",
+        "São Francisco de Paula"
+      ]
+    },
+    {
+      "cidade_base": "Ouro Preto",
+      "unidade": "2ª Cia. / 1º Batalhão / 1º Comando Operacional",
+      "endereco": "Rua Conselheiro Quintiliano, 193 – Centro – Ouro Preto / MG",
+      "cep": "35400-000",
+      "telefones": [
+        "(31) 3552-2718",
+        "(31) 3551-1644"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Itabirito",
+        "Ouro Preto",
+        "Catas Altas",
+        "Diogo de Vasconcelos",
+        "Mariana"
+      ]
+    },
+    {
+      "cidade_base": "Pará de Minas",
+      "unidade": "2ª Cia. / 10º Batalhão / 1º Comando Operacional",
+      "endereco": "R. Vital Isidoro da Silva, 370 – Eldorado – Pará de Minas / MG",
+      "cep": "35660-000",
+      "telefones": [
+        "(34) 3823-1252",
+        "(37) 99904-0370"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Igaratinga",
+        "Maravilhas",
+        "Onça de Pitangui",
+        "Papagaios",
+        "Pará de Minas",
+        "Pequi",
+        "São José da Varginha"
+      ]
+    },
+    {
+      "cidade_base": "Paracatu",
+      "unidade": "2º Pel. / 2ª Cia. / 12º Batalhão / 2º Comando Operacional",
+      "endereco": "Rua Bento Pereira Mundim, s/n – Amoreiras I – Paracatu / MG",
+      "cep": "38600-000",
+      "telefones": [
+        "(38) 3672-4332"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Guarda-Mor",
+        "Paracatu",
+        "Vazante",
+        "Brasilândia de Minas",
+        "João Pinheiro",
+        "Lagoa Grande"
+      ]
+    },
+    {
+      "cidade_base": "Passos",
+      "unidade": "2ª Cia. / 1ª Cia. Ind. / 6º Comando Operacional",
+      "endereco": "Av. Juca Stockler, 1530 – N. Sra. das Graças – Passos / MG",
+      "cep": "37900-106",
+      "telefones": [
+        "(35) 3522-8762",
+        "(35) 3526-1329"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Alpinópolis",
+        "Bom Jesus da Penha",
+        "Capetinga",
+        "Carmo do Rio Claro",
+        "Cássia",
+        "Claraval",
+        "Delfinópolis",
+        "Fortaleza de Minas",
+        "Ibiraci",
+        "Itaú de Minas",
+        "Passos",
+        "São João Batista do Glória",
+        "São José da Barra"
+      ]
+    },
+    {
+      "cidade_base": "Patos de Minas",
+      "unidade": "1ª Cia. / 12º Batalhão / 2º Comando Operacional",
+      "endereco": "Av. Professor Aristides Memória, 319 – Jd. Paulistanos – Patos de Minas / MG",
+      "cep": "38706-092",
+      "telefones": [
+        "(34) 3822-9780"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Arapuá",
+        "Carmo do Paranaíba",
+        "Lagamar",
+        "Lagoa Formosa",
+        "Matutina",
+        "Patos de Minas",
+        "Presidente Olegário",
+        "Rio Paranaíba",
+        "São Gonçalo do Abaeté",
+        "Tiros",
+        "Varjão de Minas",
+        "São Gotardo"
+      ]
+    },
+    {
+      "cidade_base": "Patrocínio",
+      "unidade": "2º Pel. / 1ª Cia. / 12º Batalhão / 2º Comando Operacional",
+      "endereco": "Rua Teodoro Gonçalves, 1348 – São Cristóvão – Patrocínio / MG",
+      "cep": "38740-000",
+      "telefones": [
+        "(34) 3831-8915"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Abadia dos Dourados",
+        "Coromandel",
+        "Cruzeiro da Fortaleza",
+        "Douradoquara",
+        "Guimarânia",
+        "Iraí de Minas",
+        "Monte Carmelo",
+        "Patrocínio",
+        "Romaria",
+        "Serra do Salitre"
+      ]
+    },
+    {
+      "cidade_base": "Pirapora",
+      "unidade": "2º Pel. / 1ª Cia. / 6ª Cia. Ind. / 4º Comando Operacional",
+      "endereco": "Rua Anália do Vale Moreira, 75 – Cícero Passos – Pirapora / MG",
+      "cep": "39270-000",
+      "telefones": [
+        "(38) 3741-4009"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Buritizeiro",
+        "Ibiaí",
+        "Jequitaí",
+        "Lagoa dos Patos",
+        "Lassance",
+        "Pirapora",
+        "Ponto Chique",
+        "Santa Fé de Minas",
+        "São Romão",
+        "Várzea da Palma"
+      ]
+    },
+    {
+      "cidade_base": "Piumhi",
+      "unidade": "3º Pel. / 2ª Cia. / 1ª Cia. Ind. / 6º Comando Operacional",
+      "endereco": "Av. Querubino Mourão Filho, 889 – Bela Vista – Piumhi / MG",
+      "cep": "37925-000",
+      "telefones": [
+        "(37) 3371-2035",
+        "(37) 99956-2078",
+        "(37) 98859-7009"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Capitólio",
+        "Doresópolis",
+        "Pimenta",
+        "Piumhi",
+        "São Roque de Minas",
+        "Vargem Bonita"
+      ]
+    },
+    {
+      "cidade_base": "Poços de Caldas",
+      "unidade": "1ª Cia. / 1ª Cia. Ind. / 6º Comando Operacional",
+      "endereco": "Rua São José, 383 – Country Clube – Poços de Caldas / MG",
+      "cep": "37701-353",
+      "telefones": [
+        "(35) 3697-2097",
+        "(35) 3697-2342"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Bandeira do Sul",
+        "Botelhos",
+        "Cabo Verde",
+        "Caldas",
+        "Campestre",
+        "Poços de Caldas",
+        "Albertina",
+        "Andradas",
+        "Ibitiúra de Minas",
+        "Santa Rita de Caldas",
+        "Ipuiúna",
+        "Jacutinga",
+        "Turvolândia"
+      ]
+    },
+    {
+      "cidade_base": "Ponte Nova",
+      "unidade": "3º Pel. / 2ª Cia. / 11º Batalhão / 5º Comando Operacional",
+      "endereco": "Av. Eng. Afonso Vasconcelos, 1500 – CDI – Ponte Nova / MG",
+      "cep": "35431-140",
+      "telefones": [
+        "(31) 3817-1543",
+        "(31) 98793-8847"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Alvinópolis",
+        "Acaiaca",
+        "Amparo do Serra",
+        "Barra Longa",
+        "Dom Silvério",
+        "Guaraciaba",
+        "Jequeri",
+        "Oratórios",
+        "Piedade de Ponte Nova",
+        "Ponte Nova",
+        "Raul Soares",
+        "Rio Casca",
+        "Rio Doce",
+        "Santa Cruz do Escalvado",
+        "Santo Antônio do Grama",
+        "São José do Goiabal",
+        "São Pedro dos Ferros",
+        "Sem-Peixe",
+        "Sericita",
+        "Urucânia"
+      ]
+    },
+    {
+      "cidade_base": "Pouso Alegre",
+      "unidade": "1ª Cia. / 7ª Cia. Ind. / 6º Comando Operacional",
+      "endereco": "Av. Pref. Olavo Gomes de Oliveira, 5580 – São Cristóvão – Pouso Alegre / MG",
+      "cep": "37550-000",
+      "telefones": [
+        "(35) 3423-7666"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Bom Repouso",
+        "Borda da Mata",
+        "Bueno Brandão",
+        "Cachoeira de Minas",
+        "Careaçu",
+        "Conceição das Pedras",
+        "Conceição dos Ouros",
+        "Congonhal",
+        "Espírito Santo do Dourado",
+        "Estiva",
+        "Heliodora",
+        "Inconfidentes",
+        "Monte Sião",
+        "Natércia",
+        "Ouro Fino",
+        "Pouso Alegre",
+        "Santa Rita do Sapucaí",
+        "São Sebastião da Bela Vista",
+        "Senador José Bento",
+        "Silvianópolis",
+        "Tocos do Moji",
+        "São João da Mata"
+      ]
+    },
+    {
+      "cidade_base": "Resplendor",
+      "unidade": "6ª Pel. / 1ª Cia. / 6º Batalhão / 5º Comando Operacional",
+      "endereco": "Rua do Balneário, s/n – São Sebastião – Resplendor / MG",
+      "cep": "35230-000",
+      "telefones": [
+        "(33) 3263-2818",
+        "(33) 3263-2963"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Aimorés",
+        "Conselheiro Pena",
+        "Cuparaque",
+        "Goiabeira",
+        "Itueta",
+        "Pocrane",
+        "Resplendor",
+        "Santa Rita do Itueto"
+      ]
+    },
+    {
+      "cidade_base": "Salinas",
+      "unidade": "8º Pel. / 1ª Cia. / 7º Batalhão / 4º Comando Operacional",
+      "endereco": "Rua Ipês Amarelo, 25 – São Miguel – Salinas / MG",
+      "cep": "39560-000",
+      "telefones": [
+        "(38) 3841-4731",
+        "(38) 3841-4226"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Berizal",
+        "Curral de Dentro",
+        "Fruta de Leite",
+        "Indaiabira",
+        "Josenópolis",
+        "Ninheira",
+        "Novorizonte",
+        "Padre Carvalho",
+        "Rio Pardo de Minas",
+        "Rubelita",
+        "Salinas",
+        "Santa Cruz de Salinas",
+        "São João do Paraíso",
+        "Taiobeiras",
+        "Vargem Grande do Rio Pardo"
+      ]
+    },
+    {
+      "cidade_base": "São João Del Rei",
+      "unidade": "2º Pel. / 1ª Cia. / 2ª Cia. Ind. / 3º Comando Operacional",
+      "endereco": "Av. 8 de Dezembro, 698 – Vila Marquetti – São João Del Rei / MG",
+      "cep": "36300-000",
+      "telefones": [
+        "(32) 3371-8959",
+        "(32) 3373-5474",
+        "(32) 3379-2640"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Andrelândia",
+        "Conceição da Barra de Minas",
+        "Coronel Xavier Chaves",
+        "Dores de Campos",
+        "Lagoa Dourada",
+        "Madre de Deus de Minas",
+        "Nazareno",
+        "Piedade do Rio Grande",
+        "Prados",
+        "Resende Costa",
+        "Ritápolis",
+        "Santa Cruz de Minas",
+        "São João Del Rei",
+        "São Tiago",
+        "São Vicente de Minas",
+        "Tiradentes"
+      ]
+    },
+    {
+      "cidade_base": "São João Evangelista",
+      "unidade": "7º Pel. / 1ª Cia. / 6º Batalhão / 5º Comando Operacional",
+      "endereco": "Rodovia MG-120, 2200 – Hamilton Ribeiro – São João Evangelista / MG",
+      "cep": "39705-000",
+      "telefones": [
+        "(33) 3412-1211",
+        "(33) 3412-2108"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Cantagalo",
+        "Coluna",
+        "Divinolândia de Minas",
+        "Dom Joaquim",
+        "Dores de Guanhães",
+        "Frei Lagonegro",
+        "Gonzaga",
+        "Guanhães",
+        "José Raydan",
+        "Materlândia",
+        "Paulistas",
+        "Peçanha",
+        "Rio Vermelho",
+        "Sabinópolis",
+        "Santa Maria do Suaçuí",
+        "São João Evangelista",
+        "São José do Jacuri",
+        "São Pedro do Suaçuí",
+        "Senhora do Porto",
+        "Virginópolis",
+        "Água Boa",
+        "São Sebastião do Maranhão"
+      ]
+    },
+    {
+      "cidade_base": "São Lourenço",
+      "unidade": "3º Pel. / 2ª Cia. / 9º Batalhão / 6º Comando Operacional",
+      "endereco": "Rua Dr. Ribeiro da Luz, 305 – Centro – São Lourenço / MG",
+      "cep": "37470-000",
+      "telefones": [
+        "(35) 3332-6332"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Aiuruoca",
+        "Alagoa",
+        "Baependi",
+        "Bocaina de Minas",
+        "Carmo de Minas",
+        "Carvalhos",
+        "Caxambu",
+        "Cristina",
+        "Cruzília",
+        "Dom Viçoso",
+        "Itamonte",
+        "Itanhandu",
+        "Liberdade",
+        "Minduri",
+        "Passa Quatro",
+        "Passa Vinte",
+        "Pouso Alto",
+        "São Lourenço",
+        "São Sebastião do Rio Verde",
+        "Seritinga",
+        "Serranos",
+        "Soledade de Minas",
+        "Virgínia"
+      ]
+    },
+    {
+      "cidade_base": "São Sebastião do Paraíso",
+      "unidade": "2º Pel. / 2ª Cia. / 1ª Cia. Ind. / 6º Comando Operacional",
+      "endereco": "R. Oliveira Resende, 1300 – Vila Operária – São Sebastião do Paraíso / MG",
+      "cep": "37950-000",
+      "telefones": [
+        "(35) 3531-6303",
+        "(35) 3539-1069",
+        "(35) 3531-9975"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Itamogi",
+        "Jacuí",
+        "Monte Santo de Minas",
+        "Pratápolis",
+        "São Sebastião do Paraíso",
+        "São Tomás de Aquino"
+      ]
+    },
+    {
+      "cidade_base": "Sete Lagoas",
+      "unidade": "1ª Cia. / 5ª Cia. Ind. / 1º Comando Operacional",
+      "endereco": "Rua Renato Azeredo, 100 – Jardim Canaã – Sete Lagoas / MG",
+      "cep": "35700-312",
+      "telefones": [
+        "(31) 3773-0207",
+        "(31) 3376-7819"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Araçaí",
+        "Baldim",
+        "Cachoeira da Prata",
+        "Caetanópolis",
+        "Capim Branco",
+        "Cordisburgo",
+        "Fortuna de Minas",
+        "Funilândia",
+        "Inhaúma",
+        "Jequitibá",
+        "Matozinhos",
+        "Paraopeba",
+        "Prudente de Moraes",
+        "Santana do Pirapama",
+        "Sete Lagoas"
+      ]
+    },
+    {
+      "cidade_base": "Teófilo Otoni",
+      "unidade": "2ª Cia. / 6º Batalhão / 5º Comando Operacional",
+      "endereco": "Av. Floriano Peixoto, 50B – Manoel Pimenta – Teófilo Otoni / MG",
+      "cep": "39802-050",
+      "telefones": [
+        "(33) 3522-2210",
+        "(33) 3521-4477"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Águas Formosas",
+        "Ataléia",
+        "Bertópolis",
+        "Campanário",
+        "Caraí",
+        "Carlos Chagas",
+        "Catuji",
+        "Crisólita",
+        "Franciscópolis",
+        "Frei Gaspar",
+        "Fronteira dos Vales",
+        "Itaipé",
+        "Itambacuri",
+        "Ladainha",
+        "Machacalis",
+        "Malacacheta",
+        "Nanuque",
+        "Nova Módica",
+        "Novo Cruzeiro",
+        "Novo Oriente de Minas",
+        "Ouro Verde de Minas",
+        "Pavão",
+        "Pescador",
+        "Poté",
+        "Santa Helena de Minas",
+        "São José do Divino",
+        "Serra dos Aimorés",
+        "Setubinha",
+        "Teófilo Otoni",
+        "Umburatiba"
+      ]
+    },
+    {
+      "cidade_base": "Timóteo",
+      "unidade": "7º Pel. / 1ª Cia. / 11º Batalhão / 5º Comando Operacional",
+      "endereco": "Av. Acesita, 617 – Olaria – Timóteo / MG",
+      "cep": "35180-207",
+      "telefones": [
+        "(31) 3847-7790"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Dionísio",
+        "Marliéria",
+        "Timóteo"
+      ]
+    },
+    {
+      "cidade_base": "Três Corações",
+      "unidade": "2º Pel. / 2ª Cia. / 9º Batalhão / 6º Comando Operacional",
+      "endereco": "Rua João Rodrigues Beck, 64 – Novo Horizonte – Três Corações / MG",
+      "cep": "37410-000",
+      "telefones": [
+        "(35) 3231-3384"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Cambuquira",
+        "Campanha",
+        "Carmo da Cachoeira",
+        "Conceição do Rio Verde",
+        "Cordislândia",
+        "Jesuânia",
+        "Lambari",
+        "Monsenhor Paulo",
+        "Olimpio Noronha",
+        "São Bento Abade",
+        "São Gonçalo do Sapucaí",
+        "São Tomé das Letras",
+        "Três Corações"
+      ]
+    },
+    {
+      "cidade_base": "Ubá",
+      "unidade": "2ª Cia. / 4º Batalhão / 3º Comando Operacional",
+      "endereco": "Rua Farm. José R. Andrade, 485 – São Sebastião – Ubá / MG",
+      "cep": "36500-000",
+      "telefones": [
+        "(32) 3532-8145"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Astolfo Dutra",
+        "Brás Pires",
+        "Divinésia",
+        "Dona Eusébia",
+        "Dores do Turvo",
+        "Guarani",
+        "Guidoval",
+        "Guiricema",
+        "Mercês",
+        "Piraúba",
+        "Rio Pomba",
+        "Rodeiro",
+        "Senador Firmino",
+        "Silveirânia",
+        "Tabuleiro",
+        "Tocantins",
+        "Ubá",
+        "Visconde do Rio Branco"
+      ]
+    },
+    {
+      "cidade_base": "Uberaba",
+      "unidade": "1ª Cia. / 8º Batalhão / 2º Comando Operacional",
+      "endereco": "Av. da Saudade, 214 – Santa Marta – Uberaba / MG",
+      "cep": "38061-000",
+      "telefones": [
+        "(34) 3332-4164"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Água Comprida",
+        "Conceição das Alagoas",
+        "Delta",
+        "Nova Ponte",
+        "Uberaba",
+        "Veríssimo"
+      ]
+    },
+    {
+      "cidade_base": "Uberlândia",
+      "unidade": "1ª Cia. / 5º Batalhão / 2º Comando Operacional",
+      "endereco": "Av. Floriano Peixoto, 1548 – N. Sra. Aparecida – Uberlândia / MG",
+      "cep": "38400-700",
+      "telefones": [
+        "(34) 3214-4334"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Uberlândia"
+      ]
+    },
+    {
+      "cidade_base": "Unaí",
+      "unidade": "2ª Cia. / 12º Batalhão / 2º Comando Operacional",
+      "endereco": "Rua Santa Clara, s/n – Cruzeiro – Unaí / MG",
+      "cep": "38610-000",
+      "telefones": [
+        "(38) 3677-5095"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Arinos",
+        "Bonfinópolis de Minas",
+        "Buritis",
+        "Cabeceira Grande",
+        "Chapada Gaúcha",
+        "Dom Bosco",
+        "Formoso",
+        "Natalândia",
+        "Riachinho",
+        "Unaí",
+        "Uruana de Minas",
+        "Urucuia"
+      ]
+    },
+    {
+      "cidade_base": "Varginha",
+      "unidade": "1ª Cia. / 9º Batalhão / 6º Comando Operacional",
+      "endereco": "Av. Antônio da Silva Neto, 199 – Jardim Primavera – Varginha / MG",
+      "cep": "37010-210",
+      "telefones": [
+        "(35) 3223-7050",
+        "(35) 3690-7217",
+        "(35) 3690-7215"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Elói Mendes",
+        "Três Pontas",
+        "Varginha",
+        "Boa Esperança",
+        "Coqueiral",
+        "Guapé",
+        "Ilicínea",
+        "Santana da Vargem"
+      ]
+    },
+    {
+      "cidade_base": "Viçosa",
+      "unidade": "3º Pel. / 2ª Cia. / 4º Batalhão / 3º Comando Operacional",
+      "endereco": "Av. Oraida Mendes de Castro (BR-120), s/n – Novo Silvestre – Viçosa / MG",
+      "cep": "36570-000",
+      "telefones": [
+        "(31) 3885-2092",
+        "(31) 3891-0355",
+        "(31) 3891-2598"
+      ],
+      "email": "",
+      "municipios_atendidos": [
+        "Araponga",
+        "Cajuri",
+        "Canaã",
+        "Coimbra",
+        "Ervália",
+        "Paula Cândido",
+        "Pedra do Anta",
+        "Porto Firme",
+        "Presidente Bernardes",
+        "São Geraldo",
+        "São Miguel do Anta",
+        "Teixeiras",
+        "Viçosa"
+      ]
+    }
+  ]
+}
