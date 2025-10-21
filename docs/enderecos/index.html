@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Endereços SSCIP — CBMMG | Busca por cidade</title>
+  <meta name="description" content="Busca de endereços SSCIP do CBMMG por cidade atendida ou cidade base.">
+  <link rel="stylesheet" href="../assets/styles.css" />
+  <style>
+    .searchbar{display:flex;gap:10px;align-items:center;margin:16px 0}
+    .searchbar input{flex:1;padding:12px;border-radius:12px;border:1px solid #1f2a44;background:#0a1020;color:#e5e7eb}
+    .result{background:var(--panel);border:1px solid #1f2a44;border-radius:14px;padding:16px;margin:12px 0}
+    .result h3{margin:0 0 8px}
+    .badge{display:inline-block;border:1px solid #1f2a44;border-radius:999px;padding:4px 10px;margin:4px 6px 0 0;font-size:.85rem;color:#9ec1ff}
+    .muted{color:#94a3b8}
+    .err{color:#ef4444}
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <h1>🔎 Endereços SSCIP — CBMMG</h1>
+    <p>Busque por <strong>cidade atendida</strong> (ex.: “Teófilo Otoni”) ou por <strong>cidade base</strong> da unidade.</p>
+  </header>
+
+  <main class="container">
+    <div class="searchbar">
+      <input id="q" type="text" placeholder="Digite a cidade (ex.: Ipatinga, Teófilo Otoni, Uberlândia)…" autocomplete="off" />
+      <button class="card btn" id="btnLimpar" type="button">Limpar</button>
+      <a class="card" href="../" target="_self">⬅ Voltar ao portal</a>
+    </div>
+
+    <div id="status" class="muted"></div>
+    <div id="lista"></div>
+
+    <section class="panel">
+      <h2>Sobre esta base</h2>
+      <p class="muted">Fonte: cópia local do usuário — <code>enderecos_cbmmg.json</code>. Se a cidade não constar, consulte o portal oficial do CBMMG.</p>
+    </section>
+  </main>
+
+  <footer class="footer">© 2025 – Eng. Wellington G. Valente — Informativo independente (não representa o CBMMG).</footer>
+
+  <script>
+    const elQ = document.getElementById('q');
+    const elLista = document.getElementById('lista');
+    const elStatus = document.getElementById('status');
+    const btnLimpar = document.getElementById('btnLimpar');
+
+    // Normaliza acentos e caixa
+    const norm = s => (s||"").normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().trim();
+
+    let base = [], idxAtendidos = new Map(), idxBases = new Map();
+
+    async function carregar(){
+      elStatus.textContent = 'Carregando base...';
+      try{
+        const resp = await fetch('../enderecos_cbmmg.json', {cache:'no-store'});
+        const json = await resp.json();
+        base = json.unidades || [];
+
+        // Índices para busca rápida
+        base.forEach(u=>{
+          const baseKey = norm(u.cidade_base);
+          if(!idxBases.has(baseKey)) idxBases.set(baseKey, []);
+          idxBases.get(baseKey).push(u);
+
+          (u.municipios_atendidos||[]).forEach(mun=>{
+            const k = norm(mun);
+            if(!idxAtendidos.has(k)) idxAtendidos.set(k, []);
+            idxAtendidos.get(k).push(u);
+          });
+        });
+
+        elStatus.textContent = 'Digite o nome da cidade para buscar.';
+      }catch(e){
+        elStatus.innerHTML = '<span class="err">Falha ao carregar a base de endereços.</span>';
+      }
+    }
+
+    function render(unidades){
+      elLista.innerHTML = '';
+      if(!unidades || !unidades.length){
+        elStatus.innerHTML = '<span class="err">Nenhuma unidade encontrada para a cidade informada.</span>';
+        return;
+      }
+      elStatus.textContent = `${unidades.length} resultado(s)`;
+      unidades.forEach(u=>{
+        const div = document.createElement('div');
+        div.className = 'result';
+        div.innerHTML = `
+          <h3>${u.unidade}</h3>
+          <div><strong>Cidade base:</strong> ${u.cidade_base}</div>
+          <div><strong>Endereço:</strong> ${u.endereco}</div>
+          <div><strong>CEP:</strong> ${u.cep||'-'}</div>
+          <div><strong>Telefones:</strong> ${(u.telefones||[]).join(' · ')||'-'}</div>
+          <div><strong>E-mail:</strong> ${u.email||'-'}</div>
+          <div style="margin-top:8px"><strong>Municípios atendidos:</strong></div>
+          <div>${(u.municipios_atendidos||[]).map(m=>`<span class="badge">${m}</span>`).join('')}</div>
+        `;
+        elLista.appendChild(div);
+      });
+    }
+
+    // Busca por cidade atendida OU pela cidade base
+    function buscar(){
+      const q = norm(elQ.value);
+      if(!q){ elLista.innerHTML=''; elStatus.textContent=''; return; }
+
+      // 1) match exato em atendidos
+      let res = idxAtendidos.get(q) || [];
+
+      // 2) match exato em bases
+      res = res.concat(idxBases.get(q) || []);
+
+      // 3) se nada, tenta contains (parcial) nos atendidos e bases
+      if(res.length === 0){
+        const fromAtt = [];
+        for(const [k, arr] of idxAtendidos){
+          if(k.includes(q)) fromAtt.push(...arr);
+        }
+        const fromBase = [];
+        for(const [k, arr] of idxBases){
+          if(k.includes(q)) fromBase.push(...arr);
+        }
+        res = fromAtt.concat(fromBase);
+      }
+
+      // remove duplicatas (mesma unidade)
+      const seen = new Set();
+      const uniq = res.filter(u=>{
+        const key = u.cidade_base+'|'+u.unidade;
+        if(seen.has(key)) return false;
+        seen.add(key); return true;
+      });
+
+      render(uniq);
+    }
+
+    // Debounce simples
+    let t=null;
+    elQ.addEventListener('input', ()=>{
+      clearTimeout(t); t = setTimeout(buscar, 200);
+    });
+    btnLimpar.addEventListener('click', ()=>{
+      elQ.value=''; elLista.innerHTML=''; elStatus.textContent='';
+      elQ.focus();
+    });
+
+    carregar();
+  </script>
+</body>
+</html>
