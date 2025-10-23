@@ -1,0 +1,42 @@
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+      - principal   # se o nome da sua branch for "principal", mantenha aqui
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📦 Checkout código-fonte
+        uses: actions/checkout@v4
+
+      - name: ⚙️ Configurar GitHub Pages
+        uses: actions/configure-pages@v4
+
+      - name: 📤 Enviar artefatos para o Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'  # publica todos os arquivos da raiz do repositório
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 🚀 Implantar no GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
